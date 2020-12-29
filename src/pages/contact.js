@@ -23,7 +23,7 @@ const ContactPage = ({
           <form className="form-container" action="mailto:vcjpierre@gmail.com" method="post" enctype="text/plain">
             <div>
               <label htmlFor="w3lName">Nombre</label>
-              <input type="text" name="w3lName" id="w3lName" label="Tu name" required/>
+              <input type="text" name="w3lName" id="w3lName" label="Tu nombre" required/>
             </div>
             <div>
               <label htmlFor="w3lSender">Email</label>
