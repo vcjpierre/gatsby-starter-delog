@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        <p>&copy; {new Date().getFullYear()} &bull; Hecho con <span role="img" aria-label="love">❤️</span> by <a href="https://jeanpierrevelez.com">Jean Pierre Velez</a></p>
       </footer>
     </div>
   )
