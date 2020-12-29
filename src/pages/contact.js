@@ -11,18 +11,18 @@ const ContactPage = ({
   return (
     <Layout>
       <Helmet>
-        <title>Contact — {site.siteMetadata.title}</title>
-        <meta name="description" content={"Contact page of " + site.siteMetadata.description} />
+        <title>Contacto — {site.siteMetadata.title}</title>
+        <meta name="description" content={"Página de contacto " + site.siteMetadata.description} />
       </Helmet>
       <div className="two-grids -contact">
         <div className="post-thumbnail" style={{backgroundImage: `url('/assets/alexander-andrews-HgUDpaGPTEA-unsplash.jpg')`, marginBottom: 0}}>
-          <h1 className="post-title">Get in Touch</h1>
-          <p>Let me help you kick start your next project &rarr;</p>
+          <h1 className="post-title">Ponerse en contacto</h1>
+          <p>Déjame ayudarte a poner en marcha tu próximo proyecto &rarr;</p>
         </div>
         <div>
           <form className="form-container" action="https://sendmail.w3layouts.com/SubmitContactForm" method="post">
             <div>
-              <label htmlFor="w3lName">Name</label>
+              <label htmlFor="w3lName">Nombre</label>
               <input type="text" name="w3lName" id="w3lName"/>
             </div>
             <div>
@@ -30,11 +30,11 @@ const ContactPage = ({
               <input type="email" name="w3lSender" id="w3lSender"/>
             </div>
             <div>
-              <label htmlFor="w3lSubject">Subject</label>
+              <label htmlFor="w3lSubject">Sujeto</label>
               <input type="text" name="w3lSubject" id="w3lSubject"/>
             </div>
             <div>
-              <label htmlFor="w3lMessage">Message</label>
+              <label htmlFor="w3lMessage">Mensaje</label>
               <textarea name="w3lMessage" id="w3lMessage"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
