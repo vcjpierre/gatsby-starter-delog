@@ -1,9 +1,9 @@
 {
-  "title": "Jean Pierre",
+  "title": "Blog | Jean Pierre Velez",
   "siteUrl": "https://suspicious-davinci-6404fd.netlify.app/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "description": "A blog demonstrating what amazing apps you can do.",
   "home": {
-    "title": "Hi! I'm Jean Pierre",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "Hola soy Jean Pierre",
+    "description": "Blog escrito por **Jean Pierre** desde Santa Cruz, Bolivia. Soy un desarrollador autodidacta que crea aplicaciones web usando tecnologías modernas. [Puedes seguirme en Twitter](https://twitter.com/vcjpierre)."
   }
 }
