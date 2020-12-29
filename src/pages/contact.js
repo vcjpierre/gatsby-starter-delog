@@ -23,19 +23,19 @@ const ContactPage = ({
           <form className="form-container" action="mailto:vcjpierre@gmail.com" method="post" enctype="text/plain">
             <div>
               <label htmlFor="w3lName">Nombre</label>
-              <input type="text" name="w3lName" id="w3lName" label="Tu nombre" required/>
+              <input type="text" name="w3lName" id="w3lName" placeholder="Tu nombre" required/>
             </div>
             <div>
               <label htmlFor="w3lSender">Email</label>
-              <input type="email" name="w3lSender" id="w3lSender" label="Tu email" required/>
+              <input type="email" name="w3lSender" id="w3lSender" placeholder="Tu email" required/>
             </div>
             <div>
               <label htmlFor="w3lSubject">Asunto</label>
-              <input type="text" name="w3lSubject" id="w3lSubject" label="Escribe el asunto" required/>
+              <input type="text" name="w3lSubject" id="w3lSubject" placeholder="Escribe el asunto" required/>
             </div>
             <div>
               <label htmlFor="w3lMessage">Mensaje</label>
-              <textarea name="w3lMessage" id="w3lMessage" label="Escribe tu mensaje" maxlength="6000"></textarea>
+              <textarea name="w3lMessage" id="w3lMessage" placeholder="Escribe tu mensaje" maxlength="6000"></textarea>
             </div>
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
