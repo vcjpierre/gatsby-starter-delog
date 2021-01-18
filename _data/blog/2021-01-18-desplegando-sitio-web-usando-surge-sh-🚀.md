@@ -1,16 +1,16 @@
 ---
 template: BlogPost
-path: deploy-surge
+path: /deploy-surge
 date: 2021-01-18T18:20:55.681Z
 title: Desplegando sitio web usando Surge.sh 🚀
 metaDescription: Como desplegar un sitio web usando Surge
-thumbnail: /assets/captura-de-pantalla-2021-01-18-130143.png
+thumbnail: /assets/img1.png
 ---
 ## Primeros pasos
 
 Primeramente necesitamos tener instalado [NodeJs](https://nodejs.org/) para poder usar el manejador de paquetes [npm](https://www.npmjs.com/) y instalar el paquete de surge de forma global
 
-Para instalarlo ejecutamos el comando` npm install --global surge `o de también forma simple `npm i -g surge`
+Para instalarlo ejecutamos el comando ` npm install --global surge ` o de también forma simple `npm i -g surge`
 
 ## Desplegar a Surge 🐱‍🏍
 
@@ -42,7 +42,7 @@ surge --domain https://my-project.surge.sh
 
 A veces, ya no deseas que un proyecto se publique en un dominio o subdominio particular. Para lograr esto, puede desmontar un proyecto a través de Surge CLI. Esto efectivamente desconectará el proyecto.
 
-Ejecute `surge `especificando el dominio que ya no desea utilizar. Por ejemplo, si su dominio no deseado fuera my-project.surge.sh, ejecutarías:
+Ejecute `surge ` especificando el dominio que ya no desea utilizar. Por ejemplo, si su dominio no deseado fuera my-project.surge.sh, ejecutarías:
 
 ```sh
 surge teardown my-project.surge.sh
