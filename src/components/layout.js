@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} &bull; Hecho con <span role="img" aria-label="love">❤️</span> by <a href="https://jeanpierrevelez.com">Jean Pierre Velez</a></p>
+        <p>&copy; {new Date().getFullYear()} &bull; Made using <a href="https://github.com/W3Layouts/gatsby-starter-delog">Delog</a>  by <a href="https://jeanpierrevelez.com">Jean Pierre Velez</a></p>
       </footer>
     </div>
   )
